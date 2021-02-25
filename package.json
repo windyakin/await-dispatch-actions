@@ -2,9 +2,9 @@
   "name": "await-dispatch-actions",
   "version": "1.0.0",
   "description": "Waiting for the action called by \"workflow_dispatch\" to finish ",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc && ncc build"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/windyakin/await-dispatch-actions/issues"
   },
-  "homepage": "https://github.com/windyakin/await-dispatch-actions#readme"
+  "homepage": "https://github.com/windyakin/await-dispatch-actions#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0",
+    "@octokit/rest": "^18.2.1",
+    "@octokit/types": "^6.10.1",
+    "@vercel/ncc": "^0.27.0",
+    "typescript": "^4.2.2"
+  }
 }
