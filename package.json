@@ -1,0 +1,19 @@
+{
+  "name": "await-dispatch-actions",
+  "version": "1.0.0",
+  "description": "Waiting for the action called by \"workflow_dispatch\" to finish ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/windyakin/await-dispatch-actions.git"
+  },
+  "author": "windyakin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/windyakin/await-dispatch-actions/issues"
+  },
+  "homepage": "https://github.com/windyakin/await-dispatch-actions#readme"
+}
